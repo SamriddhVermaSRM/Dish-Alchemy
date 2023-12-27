@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/Dish-Alchemy/static/css/main.3fbd1f3d.css",
-    "main.js": "/Dish-Alchemy/static/js/main.890cdc85.js",
+    "main.js": "/Dish-Alchemy/static/js/main.08bee4a1.js",
     "static/js/787.c76cd735.chunk.js": "/Dish-Alchemy/static/js/787.c76cd735.chunk.js",
     "static/media/flowchart.png": "/Dish-Alchemy/static/media/flowchart.cf371aab5d4e7d95bd6d.png",
     "static/media/logo.png": "/Dish-Alchemy/static/media/logo.5ba6bcdeef2d7aab8580.png",
     "index.html": "/Dish-Alchemy/index.html",
     "main.3fbd1f3d.css.map": "/Dish-Alchemy/static/css/main.3fbd1f3d.css.map",
-    "main.890cdc85.js.map": "/Dish-Alchemy/static/js/main.890cdc85.js.map",
+    "main.08bee4a1.js.map": "/Dish-Alchemy/static/js/main.08bee4a1.js.map",
     "787.c76cd735.chunk.js.map": "/Dish-Alchemy/static/js/787.c76cd735.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3fbd1f3d.css",
-    "static/js/main.890cdc85.js"
+    "static/js/main.08bee4a1.js"
   ]
 }
