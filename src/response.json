@@ -1,0 +1,22 @@
+{
+    "id": "chatcmpl-8U602cnNwsqpNoHujnT0ftL64B8SP",
+    "object": "chat.completion",
+    "created": 1702183594,
+    "model": "gpt-3.5-turbo-0613",
+    "choices": [
+        {
+            "index": 0,
+            "message": {
+                "role": "assistant",
+                "content": "{\n  \"dish\": \"chilli paneer\",\n  \"ingredients\": [\n    \"200 grams paneer (cottage cheese)\",\n    \"1 bell pepper (capsicum), sliced\",\n    \"1 onion, sliced\",\n    \"2-3 green chilies, slit\",\n    \"5-6 garlic cloves, finely chopped\",\n    \"1 inch ginger, finely chopped\",\n    \"2 tablespoons soy sauce\",\n    \"1 tablespoon chili sauce\",\n    \"1 tablespoon tomato ketchup\",\n    \"1 tablespoon vinegar\",\n    \"1 tablespoon corn flour\",\n    \"1/4 cup water\",\n    \"2 tablespoons oil\",\n    \"Salt to taste\",\n    \"Fresh coriander leaves for garnishing\"\n  ],\n  \"recipe\": [\n    \"Cut paneer into cubes and keep aside.\",\n    \"In a small bowl, mix together soy sauce, chili sauce, tomato ketchup, and vinegar. Keep the sauce mixture aside.\",\n    \"In another bowl, mix corn flour with water to make a slurry.\",\n    \"Heat oil in a pan and add garlic, ginger, and green chilies. Saute for a minute.\",\n    \"Add onions and bell peppers. Cook on high heat for 2-3 minutes till they are slightly charred but still crunchy.\",\n    \"Add the sauce mixture and mix well.\",\n    \"Add the corn flour slurry and mix well. Cook for another minute till the sauce thickens.\",\n    \"Add paneer cubes and mix gently to coat them in the sauce.\",\n    \"Cook for 2-3 minutes till paneer is heated through.\",\n    \"Garnish with fresh coriander leaves.\",\n    \"Serve hot with fried rice or noodles.\"\n  ],\n  \"nutritional_value\": {\n    \"calories\": 355,\n    \"protein\": 15,\n    \"carbohydrates\": 14,\n    \"fat\": 27,\n    \"fiber\": 2\n  }\n}"
+            },
+            "finish_reason": "stop"
+        }
+    ],
+    "usage": {
+        "prompt_tokens": 40,
+        "completion_tokens": 393,
+        "total_tokens": 433
+    },
+    "system_fingerprint": null
+}

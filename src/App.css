@@ -1,0 +1,312 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Roboto:wght@400;700&family=Raleway&display=swap');
+nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    z-index: 5;
+    height: 90px;
+    top: 0%;
+    background: linear-gradient(to right, rgb(255, 255, 255), rgb(72, 27, 60));
+    overflow: hidden;
+    width: 100%;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 10px 50px;
+    color: black;
+}
+
+nav ul li button {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    position: relative;
+    background-color: unset;
+    border: 0px;
+}
+
+nav ul li button::after {
+    content: "";
+    width: 0;
+    height: 4px;
+    background-color: rgba(246, 189, 227, 0.515);
+    position: absolute;
+    left: 0;
+    bottom: -8px;
+    transition: 0.75s;
+}
+
+nav ul li button:hover::after {
+    width: 100%;
+}
+
+.logo {
+    width: 200px;
+    height: fit-content;
+    margin-left: 20px;
+}
+
+.main-content h1 {
+    margin-top: 7rem;
+    font-family: 'Poppins';
+    color: rgb(6, 0, 4);
+    font-size: clamp(1rem, 1rem + 4vw, 2.567rem);
+    padding: 0px 15px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.main-content h4 {
+    font-family: 'Roboto';
+    color: rgb(107, 56, 91);
+    text-align: center;
+    font-size: 30px;
+    padding: 0px 15px;
+}
+
+.main-content p {
+    color: rgb(17, 1, 14);
+    font-size: 17px;
+    font-family: 'Poppins';
+    text-align: center;
+    padding: 0px 15px;
+}
+
+.mainheading {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+}
+.mainheading img {
+    padding-left: 15px;
+    height: 60px;
+}
+.scanbutton {
+  width: fit-content;
+  padding: 10px;
+  font-size: 20px;
+  font-family: 'Raleway';
+  font-weight: 600;
+  border: 4px solid rgb(41, 6, 41);
+  border-radius: 6px;
+  cursor: pointer;
+  margin: 0px 15px;
+}
+.scansection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4rem;
+}
+.App {
+  overflow-x: hidden;
+  height: 100%;
+  width: 100%;
+}
+.Upload{
+    padding: 20px;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    flex-direction: column;
+    z-index: 1;
+}
+.picbutton{
+  z-index: 2;
+  position: relative;
+  margin-top: -65px;
+  padding: 3px;
+  border: white solid 2px;
+  border-radius: 50%;
+  background-color: unset;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.picbutton img{
+  height: 50px;
+  width: 50px;
+}
+.footer{
+    background-color: rgb(78, 43, 111);
+    color: rgb(255, 255, 255);
+    bottom: 0;
+    text-align: center;
+    padding: 5px;
+}
+.fc-text
+{
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+}
+#demo h1{
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+    padding: 15px;
+    width: fit-content;
+    color: rgb(107, 56, 91);
+    border: 2px dashed rgb(182, 83, 244);
+}
+#demo h2{
+    padding: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    color: rgb(116, 60, 168);
+    display: flex;
+    align-items: center;
+    width: fit-content;
+
+}
+#demo h2 span{
+    padding: 10px;
+    font-size: large;
+    font-family: 'Roboto';
+    color: rgb(116, 60, 168);
+    display: flex;
+    justify-content: left;
+    align-items: left;
+}
+#demo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.fc-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.flow-c{
+    display: flex;
+}
+.Dish {
+    width: 98vw;
+}
+.output{
+    margin: 20px;
+    border-radius: 10px;
+    border: 5px solid rgb(0, 0, 0);
+    padding: 10px;
+    width: 70%;
+}
+.output h1 {
+    font-size: 30px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 800;
+    font-style: italic;
+    text-decoration: underline;
+}
+.Nut-key-value{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+}
+.Nut-key-value h3{
+    padding-right: 10px;
+}
+.dish {
+    width: 100%;
+    height: calc(99vh - 90px - 1rem - 10px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.dishbox {
+    padding: 23px;
+    border: 2px dashed rgb(166, 26, 166);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.dishname {
+    background-color: unset;
+    padding: 10px;
+    font-weight: 500;
+    border: 2px solid rgb(245, 180, 228);
+    border-radius: 12px
+}
+.dishbtn {
+    background-color: rgb(197, 149, 191);
+    border: 2px;
+    border-radius: 10px;
+    margin-top: 10px;
+    padding: 7px;
+    cursor: pointer;
+}
+
+
+/* animation start */
+@keyframes ldio-0krhie7mzfff {
+  0% { opacity: 1 }
+  100% { opacity: 0 }
+}
+.ldio-0krhie7mzfff div {
+  left: 98.89999999999999px;
+  top: 46px;
+  position: absolute;
+  animation: ldio-0krhie7mzfff linear 1.8867924528301885s infinite;
+  background: #f233d9;
+  width: 32.199999999999996px;
+  height: 32.199999999999996px;
+  border-radius: 16.099999999999998px / 16.099999999999998px;
+  transform-origin: 16.099999999999998px 69px;
+}.ldio-0krhie7mzfff div:nth-child(1) {
+  transform: rotate(0deg);
+  animation-delay: -1.6172506738544474s;
+  background: #f233d9;
+}.ldio-0krhie7mzfff div:nth-child(2) {
+  transform: rotate(51.42857142857143deg);
+  animation-delay: -1.3477088948787062s;
+  background: #f233d9;
+}.ldio-0krhie7mzfff div:nth-child(3) {
+  transform: rotate(102.85714285714286deg);
+  animation-delay: -1.0781671159029649s;
+  background: #f233d9;
+}.ldio-0krhie7mzfff div:nth-child(4) {
+  transform: rotate(154.28571428571428deg);
+  animation-delay: -0.8086253369272237s;
+  background: #f233d9;
+}.ldio-0krhie7mzfff div:nth-child(5) {
+  transform: rotate(205.71428571428572deg);
+  animation-delay: -0.5390835579514824s;
+  background: #f233d9;
+}.ldio-0krhie7mzfff div:nth-child(6) {
+  transform: rotate(257.14285714285717deg);
+  animation-delay: -0.2695417789757412s;
+  background: #f233d9;
+}.ldio-0krhie7mzfff div:nth-child(7) {
+  transform: rotate(308.57142857142856deg);
+  animation-delay: 0s;
+  background: #f233d9;
+}
+.loadingio-spinner-spinner-r8v9lcnvu8f {
+  width: 230px;
+  height: 230px;
+  display: inline-block;
+  overflow: hidden;
+  background: unset;
+}
+.ldio-0krhie7mzfff {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  transform: translateZ(0) scale(1);
+  backface-visibility: hidden;
+  transform-origin: 0 0; /* see note above */
+}
+.ldio-0krhie7mzfff div { box-sizing: content-box; }
+/* animation end */
