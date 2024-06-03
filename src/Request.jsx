@@ -32,7 +32,7 @@ function EnterDishName( {upgpt, resgpt}) {
     resq();
         var myHeaders = new Headers();
         myHeaders.append("Content-Type", "application/json");
-        myHeaders.append("Authorization", "Bearer " + Ctoken1 + Ctoken2 + Ctoken3 ); // 
+        myHeaders.append("Authorization", "Bearer " + Ctoken1 + Ctoken2 + Ctoken3 );
     
         var raw = JSON.stringify({
           "model": "gpt-3.5-turbo",

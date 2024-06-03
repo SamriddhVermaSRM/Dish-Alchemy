@@ -1,0 +1,148 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #003366;
+    color: #fff;
+    padding: 10px 0;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .logo {
+    float: left;
+  }
+  
+  nav {
+    float: right;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .hero {
+    background-image: url(images/hero.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+  }
+  
+  .hero h1 {
+    color: #fff;
+    font-size: 48px;
+    margin-top: 100px;
+    text-align: center;
+  }
+  
+  .hero p {
+    color: #fff;
+    font-size: 24px;
+    margin-top: 10px;
+    text-align: center;
+  }
+  
+  .about-us {
+    padding: 50px 0;
+  }
+  
+  .about-us h2 {
+    font-size: 36px;
+    margin-bottom: 10px;
+  }
+  
+  .about-us p {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  .read-more {
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: #003366;
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .our-facilities {
+    padding: 50px 0;
+  }
+  
+  .our-facilities h2 {
+    font-size: 36px;
+    margin-bottom: 10px;
+  }
+  
+  .facilities-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .facility {
+    width: 30%;
+    margin-bottom: 20px;
+  }
+  
+  .facility img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .facility h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .facility p {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  .cta {
+    background-color: #003366;
+    color: #fff;
+    padding: 20px 0;
+  }
+  
+  .cta h2 {
+    font-size: 36px;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  .apply-online {
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: #fff;
+    color: #003366;
+    text-decoration: none;
+  }
+  
+  footer {
+    background-color: #003366;
+    color: #fff;
+    padding: 10px 0;
+  }
+  
+  footer p {
+    text-align: center;
+  }
